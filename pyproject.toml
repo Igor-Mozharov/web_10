@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "web-10"
+version = "0.1.0"
+description = ""
+authors = ["Igor-Mozharov <r5@ukr.net>"]
+readme = "README.md"
+packages = [{include = "web_10"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.6"
+mongoengine = "^0.26.0"
+sqlalchemy = "^2.0.1"
+pg8000 = "^1.29.4"
+psycopg2-binary = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
